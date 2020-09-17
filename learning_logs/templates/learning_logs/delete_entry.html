@@ -1,0 +1,14 @@
+{% extends 'learning_logs/base.html' %}
+{% block content %}
+    <p>
+        <a href="{% url 'learning_logs:topic' topic.id %}">{{ entry }}</a>
+    </p>
+    <form action="{% url 'learning_logs:delete_entry' entry.id %}" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button name="submit">确认删除</button>
+        <button name="submit">
+            <a href="{% url 'learning_logs:topic' topic.id %}">取消</a>
+        </button>
+    </form>
+{% endblock content %}
