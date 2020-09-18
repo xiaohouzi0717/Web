@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3740d4cc-a11a-4db9-811b-22250492c163" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600353049543</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改了manage">
+      <created>1600394466487</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600394466487</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,7 +178,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增了一个readme.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增了一个readme.txt" />
+    <MESSAGE value="修改了manage" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了manage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
